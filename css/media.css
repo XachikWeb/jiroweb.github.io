@@ -1,0 +1,251 @@
+@media (max-width:1900px) {
+    .tottle-box span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1820px) {
+    .player-block {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 0;
+    }
+    .partners-players .player-block-big {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .partners-players .player-img {
+        width: 45px;
+        height: 45px;
+        ;
+    }
+    .about-player {
+        display: flex;
+        align-items: center;
+    }
+    .partners-players {
+        flex-direction: column;
+    }
+    .player-lavel, .player-name {
+        margin: 0;
+    }
+    .player-name {
+        margin: 0 20px;
+    }
+    .player-lavel p {
+        display: none;
+    }
+    .players-overflow-y {
+        height: 325px;
+        overflow-y: auto
+    }
+}
+
+@media (max-width:1800px) {
+    .home-slider-big-cnt {
+        max-width: 1000px;
+    }
+    .take-part-components{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .take-part-components-block-tournament{
+        margin: 20px 0;
+    }
+    .take-part-components-block-img-left{
+        bottom: -10px;
+        left: 0;
+    }
+    .take-part-components-block-img-right{
+        top: -25px;
+        right:100px;
+    }
+    .take-part-components-block-liga .take-part-components-block-info{
+        margin-left: 0;
+    }
+    .take-part-components-block-liga {
+        background-size: 170%;
+   }
+
+}
+
+@media (max-width:1750px) {
+
+    .call-back-cnt-title p,.call-back-cnt-email p,.call-back-cnt-link a{
+        font-size: 28px;
+    }
+    .esparea-header-menu ul li a {
+        font-size: 18px;
+    }
+    .team-partner {
+        width: 22%
+    }
+    .tram-partner-logo-cnt {
+        width: 200px;
+        height: 125px;
+    }
+    .comand-podiom-about-component {
+        font-size: 15px;
+    }
+    /* ==================== HTML5-macth-container-start ==================== */
+    .team-players-comand .table-clicks-machs ul {
+        margin-left: 10px;
+    }
+    .team-players-comand .table-clicks-machs ul li {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .team-players-comand .table-clicks-machs ul li::before {
+        bottom: -16px;
+    }
+    .team-players-comand .select-mode-tittle, .team-players-comand .jq-selectbox__select-text, .chacked-cnt, .search-cnt {
+        font-size: 16px;
+    }
+    .team-players-comand .select-mode .icons {
+        width: 15px;
+        height: 15px;
+        ;
+    }
+    .team-players-comand .select-game-prop-container {
+        max-width: 350px;
+    }
+    .team-players-comand .search-cnt {
+        width: 185px;
+    }
+    .team-players-comand .search-cnt label input::placeholder {
+        font-size: 16px;
+    }
+    .chat-tables .table-clicks-machs ul li {
+        font-size: 24px;
+        padding: 0 50px;
+    }
+    .chat-tables .table-clicks-machs ul li::before {
+        bottom: -7px;
+    }
+    /* ==================== HTML5-home-container-start ==================== */
+    .popular-tournaments-home-big-inf {
+        max-width: 800px;
+        margin: 0;
+        padding-right: 20px;
+        margin-left: 140px;
+    }
+    .popular-tournaments-home-big-box-cnt table tr td {
+        font-size: 24px;
+    }
+    .popular-tournaments-home-big-tittle {
+        font-size: 24px;
+    }
+    .popular-tournaments-home-big-inf::before {
+        left: 0;
+        top: 0;
+        height: 100%;
+    }
+    .popular-tournaments-home-big-box {
+        max-width: 350px;
+        margin-left: 200px;
+    }
+    .monster-home-img {
+        top: -95px;
+    }
+    .popular-tournaments-home-small-components .monster-home-img {
+        height: 300px;
+        top: 20px;
+    }
+    .popular-tournaments-home-small-inf {
+        width: 300px;
+    }
+    /* ==================== footer media==================== */
+    .footer-menu a {
+        font-size: 17px;
+    }
+    .footer-logo a {
+        font-size: 18px;
+    }
+/* traxodrug-media-start */
+.el_title, .el_price p{
+    font-size: 24px;
+    text-align: center;
+
+}
+.traxodrugs_img{
+    width: 100px;
+    height: 120px;
+    margin: 0 auto 10px;
+}
+.traxodrugs_element{
+    margin: 0 30px;
+}
+/* traxodrug-media-end */
+.home-user-setting-block-img{
+    width: 80px; height: 80px;
+    margin: 0 auto 15px;
+}
+}
+
+@media (max-width:1550px) {
+     .comands-table-container table tr td:nth-child(1),
+      .comands-table-container table tr td:nth-child(2),
+       .comands-table-container table tr td:nth-child(3), 
+       .comands-table-container table tr td:nth-child(4) {
+        font-size: 15px;
+    }
+    .home-user-notifications-game {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:1300px) {
+    .wrapper {
+        width: 1920px;
+    }
+    .home-user-notifications-game {
+        padding: 0 90px;
+    }
+    .home-slider-big-cnt {
+        max-width: 1700px;
+    }
+    /* ==================== footer media==================== */
+    .footer-menu a {
+        font-size: 24px;
+    }
+    .footer-logo a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .wrapper {
+        width: 1280px;
+    }
+    .invitations-cnt-tittle-block .team-players-comand ul li {
+        font-size: 23px;
+    }
+    .main-container {
+        max-width: 1060px;
+        ;
+    }
+    .chat_sms-i p, .chat_sms-you p {
+        font-size: 12px;
+    }
+    .application_block-ok_you, .application_block-ok_i {
+        width: 710px;
+    }
+    .home-user-notifications-game {
+        padding: 0 20px;
+    }
+    .home-slider-big-cnt {
+        width: 1000px;
+    }
+    /* ==================== footer media==================== */
+    .footer-menu a {
+        font-size: 17px;
+    }
+    .footer-logo a {
+        font-size: 17px;
+    }
+}
+
